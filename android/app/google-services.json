@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1043678856363",
+    "firebase_url": "https://first-app-vilbert-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "first-app-vilbert",
+    "storage_bucket": "first-app-vilbert.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043678856363:android:e402ced7aa26e94289e3ee",
+        "android_client_info": {
+          "package_name": "com.example.daftar_belanja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw9-6HKIEjroG7qtZ8r6UY5XZtK32CX94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
