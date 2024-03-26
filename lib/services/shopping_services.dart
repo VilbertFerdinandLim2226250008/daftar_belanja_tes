@@ -13,18 +13,19 @@ class ShoppingService {
       DataSnapshot snapshot = event.snapshot;
       print('Snapshot data: ${snapshot.value}');
 
-      if(snapshot.value != null) {
+      if (snapshot.value != null) {
         Map<dynamic, dynamic> values = snapshot.value as Map<dynamic, dynamic>;
         values.forEach((key, value) {
-          items[] = value as String;
+          items[key] = value['name'] as String;
         });
       }
 
       return items;
     });
   }
-  void addShoppingList(String itemName) {
-    _database.push().set({'name' : itemName});
+
+  void addShoppingItem(String itemName) {
+    _database.push().set({'name': itemName});
   }
 
   Future<void> removeShoppingItem(String key) async {
